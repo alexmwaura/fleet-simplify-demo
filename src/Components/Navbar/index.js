@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { MainDiv } from "./index.styles";
-
+import { MainDiv, ListAnchor } from "./index.styles";
+import "./index.css"
 export default function Navbar() {
   return (
     <MainDiv className="container">
@@ -30,21 +31,29 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="btn btn-outline-dark" href="/projects">
-                  View Projects
-                </a>
+                <ListAnchor className="btn btn-outline-dark" href="/projects">
+                  Jobs
+                </ListAnchor>
               </li>
               &nbsp;&nbsp;&nbsp;
               <li className="nav-item">
-                <a className="btn btn-outline-dark" href="/about">
-                  About Me
-                </a>
+                <ListAnchor className="btn btn-outline-dark" href="/about">
+                  Get Social
+                </ListAnchor>
               </li>
               &nbsp;&nbsp;&nbsp;
               <li className="nav-item">
-                <a className="btn btn-outline-dark" href="/contact">
-                  Contact
-                </a>
+                <ListAnchor className="btn btn-outline-dark" href="/contact">
+                  James Keem
+                </ListAnchor>
+              </li>
+              <li className="nav-item">
+              &nbsp;&nbsp;&nbsp;
+              <ListAnchor className="btn" href="/contact">
+                Menu
+                &nbsp;&nbsp;&nbsp;
+                <i className="fas fa-bars"></i>
+                </ListAnchor>
               </li>
             </ul>
           </div>
