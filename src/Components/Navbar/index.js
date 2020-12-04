@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { MainDiv, ListAnchor } from "./index.styles";
+import { ListAnchor } from "./index.styles";
 import "./index.css"
 export default function Navbar() {
   return (
-    <MainDiv className="container">
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
         id="mainNav"
@@ -59,6 +58,5 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </MainDiv>
   );
 }
