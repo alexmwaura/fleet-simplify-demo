@@ -2,6 +2,10 @@ import React from "react"
 
 export default function Sidebar(){
     return (
-        <p>Sidebar</p>
+        <div className="list-group">
+                <h6 className="list-group-item">
+                    Sidebar
+              </h6>              
+            </div>
     )
 }
