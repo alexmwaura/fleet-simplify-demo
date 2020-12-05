@@ -1,0 +1,41 @@
+.message-box {
+    height: 550px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 1px;
+    background: #fff;
+    box-shadow: 0px 2px 2px 0px rgb(175, 173, 173);
+}
+
+.msg_container_inbox{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 0px;
+margin-right: 10rem;
+border-radius: 15px 15px 15px 0px;
+background-color: #b7ecf7;
+padding: 10px;
+position: relative;
+}
+.msg_container_inbox2{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10rem;
+    margin-right: 0px;
+    border-radius: 15px 15px 15px 0px;
+    background-color: #f1d1e8;
+    padding: 10px;
+    position: relative;
+    }
+
+.msg_time{
+    color:#adb5bd;
+    margin-top: 20px;
+    float: left;
+}
+
+.msg_time2{
+    color:#adb5bd;
+    margin-top: 20px;
+    float: right;
+}
