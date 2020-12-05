@@ -6,7 +6,7 @@ export default function SearchBar() {
   return (
     <div className="container">
       <div className="row">
-        <SearchGrid className="col-md-6 col-md-4 mx-auto">
+        <SearchGrid className="col-md-4 col-md-4 mx-auto">
           <ul className="list-inline">
             <li className="list-inline-item">
               <form>
@@ -37,12 +37,12 @@ export default function SearchBar() {
             &nbsp;&nbsp;&nbsp;
             <li className="list-inline-item">
               <button className="btn btn-link text-dark" type="submit">
-                <i class="fas fa-sort-amount-down"></i>
+                <i className="fas fa-sort-amount-down"></i>
               </button>
             </li>
           </ul>
         </SearchGrid>
-        <SearchGrid className="col-md-6 float-sm-right">
+        <SearchGrid className="col-md-8 float-sm-right">
           <div className="float-sm-right">
             <button className="btn btn-warning">
               <i className="fas fa-plus"></i>Start a new chat
