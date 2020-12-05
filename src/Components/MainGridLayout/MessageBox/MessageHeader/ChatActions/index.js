@@ -20,8 +20,8 @@ export default function ChatActions() {
           alignItems: "center",
           float: "left",
           marginRight: "60px",
-          background:'#fff',
-          width: 'fit-content'
+          background: "#fff",
+          width: "fit-content",
         }}
       >
         <div style={{ marginLeft: "20px" }}>

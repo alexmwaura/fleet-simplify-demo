@@ -11,8 +11,8 @@ export default function MessageHeader() {
         borderTop: "none",
         height: "auto",
         boxShadow: "1px 1px 3px",
-        marginRight: '0px',
-        marginLeft: '0px'
+        marginRight: "0px",
+        marginLeft: "0px",
       }}
     >
       <div className="col-md-2 user-status">
@@ -30,10 +30,10 @@ export default function MessageHeader() {
       <div className="col-md-4 header-data">
         <ul className="list-inline">
           <li className="list-inline-item">
-            <ContactInfo/>
+            <ContactInfo />
           </li>
           <li className="list-inline-item">
-            <ChatActions/>
+            <ChatActions />
           </li>
         </ul>
       </div>

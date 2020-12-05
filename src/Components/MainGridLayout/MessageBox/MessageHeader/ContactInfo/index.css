@@ -1,31 +1,29 @@
-.filter-dropdown{
-    border-radius: 4px;
-    margin-right: 0px;
-    background-color: #fff;
-  }
-  .card-header {
-    color: #fff;
-    padding: .75rem 1.25rem;
-    margin-bottom: 0;
-    background-color: #402b2ba3;
-    border-bottom: 1px solid rgba(0,0,0,.125);
-  }
-  .card-body{
-      background-color: #fff;
-  }
-  
-  .contact-info{
-    box-shadow: 1px 1px 1px 1px #0000006e;
-    border-radius: 10px;
-    height: auto;
-    background: #80808054; 
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-  }
-  .dropdown-menu {
-    
-    background: unset;
-    
+.filter-dropdown {
+  border-radius: 4px;
+  margin-right: 0px;
+  background-color: #fff;
+}
+.card-header {
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #402b2ba3;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card-body {
+  background-color: #fff;
+}
+
+.contact-info {
+  box-shadow: 1px 1px 1px 1px #0000006e;
+  border-radius: 10px;
+  height: auto;
+  background: #80808054;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+.dropdown-menu {
+  background: unset;
 }
