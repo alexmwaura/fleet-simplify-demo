@@ -5,7 +5,7 @@ import "./index.css"
 export default function Navbar() {
   return (
       <nav
-        className="navbar navbar-expand-lg navbar-light fixed-top"
+        className="navbar navbar-expand-lg navbar-light bg-light sticky-top"
         id="mainNav"
       >
         <div className="container">
