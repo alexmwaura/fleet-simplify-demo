@@ -7,7 +7,7 @@ export default function MessageHeader() {
       style={{
         backgroundColor: "rgb(193 217 245)",
         borderTop: "none",
-        height: "10vh",
+        height: "auto",
         boxShadow: "1px 1px 3px",
         marginRight: '0px',
         marginLeft: '0px'
@@ -17,7 +17,7 @@ export default function MessageHeader() {
         <img
           src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg"
           alt="user"
-          className="rounded-circle user_img"
+          className="rounded-circle"
         />
         <h5 className="user-name">Shirly Cook</h5>
         <h5 className="user-handle">@JohntheD</h5>
