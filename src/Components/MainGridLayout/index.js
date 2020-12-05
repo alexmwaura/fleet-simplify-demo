@@ -7,11 +7,9 @@ export default function MainGridLayout() {
   return (
     <div className="col-md-10 col-md-10 mx-auto" style={{marginBottom: '100px'}}>
         <SearchBar />
-          <div className="container">
             <div className="row">
             <InboxWindow/>
             <MessageBox/>
-            </div>
           </div>
         
     </div>

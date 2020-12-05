@@ -1,6 +1,7 @@
 import React from "react";
 import { SearchGrid } from "./index.styles";
 import "./index.css";
+import DropDown from "./DropDown/index"
 
 export default function SearchBar() {
   return (
@@ -36,9 +37,7 @@ export default function SearchBar() {
             </li>
             &nbsp;&nbsp;&nbsp;
             <li className="list-inline-item">
-              <button className="btn btn-link text-dark" type="submit">
-                <i className="fas fa-sort-amount-down"></i>
-              </button>
+            <DropDown/>
             </li>
           </ul>
         </SearchGrid>

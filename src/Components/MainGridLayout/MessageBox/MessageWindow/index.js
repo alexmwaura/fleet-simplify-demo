@@ -11,6 +11,7 @@ export default function MessageWindow() {
           <span>Chat Id:324566223</span>
         </div>
       </div>
+      <br/>
       <div className="col-md-12">
         <div className="card-body">
           <div className="msg_container_inbox">

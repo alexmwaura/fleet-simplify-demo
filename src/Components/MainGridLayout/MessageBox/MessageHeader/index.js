@@ -1,4 +1,6 @@
 import React from "react";
+import ChatActions from "./ChatActions";
+import ContactInfo from "./ContactInfo";
 
 export default function MessageHeader() {
   return (
@@ -28,14 +30,10 @@ export default function MessageHeader() {
       <div className="col-md-4 header-data">
         <ul className="list-inline">
           <li className="list-inline-item">
-            <button className="btn btn-primary">
-              <i className="fas fa-exclamation"></i>&nbsp;&nbsp; Contact Info
-            </button>
+            <ContactInfo/>
           </li>
           <li className="list-inline-item">
-            <button className="btn btn-link text-dark" type="submit">
-              <i className="fas fa-ellipsis-v"></i>
-            </button>
+            <ChatActions/>
           </li>
         </ul>
       </div>
