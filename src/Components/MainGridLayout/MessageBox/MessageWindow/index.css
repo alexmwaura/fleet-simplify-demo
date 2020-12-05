@@ -8,7 +8,7 @@
 }
 
 .msg_container_inbox{
-margin-top: auto;
+margin-top: 20px;
 margin-bottom: auto;
 margin-left: 0px;
 margin-right: 10rem;
@@ -18,7 +18,7 @@ padding: 10px;
 position: relative;
 }
 .msg_container_inbox2{
-    margin-top: auto;
+    margin-top: 20px;
     margin-bottom: auto;
     margin-left: 10rem;
     margin-right: 0px;
@@ -38,4 +38,8 @@ position: relative;
     color:#adb5bd;
     margin-top: 20px;
     float: right;
+}
+.card-footer{
+    border-radius: 0 0 15px 15px !important;
+        border-top: 0 !important;
 }
