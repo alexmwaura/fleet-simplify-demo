@@ -31,25 +31,25 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <ListAnchor className="btn btn-outline-dark" href="/projects">
+              <ListAnchor className="btn btn-outline-dark" href="#">
                 Jobs
               </ListAnchor>
             </li>
             &nbsp;&nbsp;&nbsp;
             <li className="nav-item">
-              <ListAnchor className="btn btn-outline-dark" href="/about">
+              <ListAnchor className="btn btn-outline-dark" href="#">
                 Get Social
               </ListAnchor>
             </li>
             &nbsp;&nbsp;&nbsp;
             <li className="nav-item">
-              <ListAnchor className="btn btn-outline-dark" href="/contact">
+              <ListAnchor className="btn btn-outline-dark" href="#">
                 James Keem
               </ListAnchor>
             </li>
             <li className="nav-item">
               &nbsp;&nbsp;&nbsp;
-              <ListAnchor className="btn" href="/contact">
+              <ListAnchor className="btn" href="#">
                 Menu &nbsp;&nbsp;&nbsp;
                 <i className="fas fa-bars"></i>
               </ListAnchor>
