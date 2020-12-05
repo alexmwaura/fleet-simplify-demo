@@ -11,7 +11,6 @@ export default function MainGridLayout() {
             <div className="row">
             <InboxWindow/>
             <MessageBox/>
-
             </div>
           </div>
         
