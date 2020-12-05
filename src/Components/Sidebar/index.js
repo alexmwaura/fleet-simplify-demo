@@ -5,7 +5,7 @@ import "./index.css";
 
 export default function Sidebar() {
   return (
-    <SideBarGrid className="col-md-2">
+    <SideBarGrid className="col-md-2 mx-auto">
       <div className="container">
         <SideBar className="list-group align-items-center">
           <a
