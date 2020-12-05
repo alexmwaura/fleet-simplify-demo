@@ -7,36 +7,39 @@ export default function SearchBar() {
     <div className="container">
       <div className="row">
         <SearchGrid className="col-md-6 col-md-4 mx-auto">
-            <ul className="list-inline">
-          <li className="list-inline-item">
-          <form>
-            <div className="p-1 bg-light rounded rounded-pill shadow-sm mb-4" style={{borderRadius: '2px solid yellow'}}>
-              <div className="input-group">
-                <div className="input-group-prepend">
-                  <button
-                    type="submit"
-                    id="button-addon"
-                    className="btn btn-link text-dark"
-                  >
-                    <i className="fa fa-search"></i>
-                  </button>
+          <ul className="list-inline">
+            <li className="list-inline-item">
+              <form>
+                <div
+                  className="p-1 bg-light rounded rounded-pill shadow-sm mb-4"
+                  style={{ borderRadius: "2px solid yellow" }}
+                >
+                  <div className="input-group">
+                    <div className="input-group-prepend">
+                      <button
+                        type="submit"
+                        id="button-addon"
+                        className="btn btn-link text-dark"
+                      >
+                        <i className="fa fa-search"></i>
+                      </button>
+                    </div>
+                    <input
+                      type="search"
+                      placeholder="Search user messages or chat id's"
+                      aria-describedby="button-addon"
+                      className="form-control border-0 bg-light"
+                    />
+                  </div>
                 </div>
-                <input
-                  type="search"
-                  placeholder="Search user messages or chat id's"
-                  aria-describedby="button-addon"
-                  className="form-control border-0 bg-light"
-                />
-              </div>
-            </div>
-          </form>
-          </li>
-          &nbsp;&nbsp;&nbsp;
-          <li className="list-inline-item">
+              </form>
+            </li>
+            &nbsp;&nbsp;&nbsp;
+            <li className="list-inline-item">
               <button className="btn btn-link text-dark" type="submit">
-              <i class="fas fa-sort-amount-down"></i>
+                <i class="fas fa-sort-amount-down"></i>
               </button>
-          </li>
+            </li>
           </ul>
         </SearchGrid>
         <SearchGrid className="col-md-6 float-sm-right">
