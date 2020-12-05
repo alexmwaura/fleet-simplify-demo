@@ -1,8 +1,10 @@
 import React from "react";
 import "./index.css";
+import SendMessage from "../SendMessage"
 
 export default function MessageWindow() {
   return (
+    <>
     <div className="message-box">
       <div className="col-md-12">
         <div className="float-sm-right id-wrapper">
@@ -23,7 +25,7 @@ export default function MessageWindow() {
           <div className="msg_container_inbox2">
             Lorem Ipsum is simply dummy
           </div>
-          <span className="msg_time2">11:30 a.m.</span>
+          <span className="msg_time2">11:30 a.m.<i className="fas fa-check-double" style={{color: "#d39e00"}}></i></span>
         </div>
         <div className="card-body">
           <div className="msg_container_inbox">
@@ -36,12 +38,22 @@ export default function MessageWindow() {
           <div className="msg_container_inbox2">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has
           </div>
-          <span className="msg_time2">11:50 a.m.</span>
+          <span className="msg_time2">11:50 a.m. <i className="fas fa-check-double"></i></span>
         </div>
+        <div className="card-body">
+          <div className="msg_container_inbox2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry
+          </div>
+          <span className="msg_time2">11:50 a.m. <i className="fas fa-check"></i></span>
+        </div>
+        <div className="card-body">
+        <SendMessage />
+        </div>
+        
       </div>
     </div>
+    </>
   );
 }
