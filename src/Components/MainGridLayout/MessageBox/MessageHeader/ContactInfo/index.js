@@ -1,5 +1,7 @@
 import React from "react";
+import { DropDownMenu,CardHeader } from "../index.styles";
 import "./index.css";
+
 export default function ContactInfo() {
   return (
     <>
@@ -13,21 +15,19 @@ export default function ContactInfo() {
       >
         <i className="fas fa-exclamation"></i>&nbsp;&nbsp; Contact Info
       </button>
-      <div
+      <DropDownMenu
         className="dropdown-menu"
-        style={{ border: "0", background: "inherit" }}
       >
         <div className="contact-info-dropdown">
-          <div
+          <CardHeader
             className="card-header"
-            style={{ textAlign: "center", marginTop: "-8px" }}
           >
             <i
               className="fas fa-exclamation"
               style={{ color: "goldenrod" }}
             ></i>
             &nbsp;&nbsp; Contact Info
-          </div>
+          </CardHeader>
           <div className="container">
             <div className="row">
               <div className="col-md-4">
@@ -59,7 +59,7 @@ export default function ContactInfo() {
             <br />
           </div>
         </div>
-      </div>
+      </DropDownMenu>
     </>
   );
 }
