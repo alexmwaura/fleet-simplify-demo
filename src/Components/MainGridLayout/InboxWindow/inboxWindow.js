@@ -20,12 +20,8 @@ export default function InboxWindow() {
               alt="user"
               className="rounded-circle user_img"
             />
-            <h5 className="user-name"> 
-                Shirly Cook
-            </h5>
-            <h5 className="user-handle"> 
-                @JohntheD
-            </h5>
+            <h5 className="user-name">Shirly Cook</h5>
+            <h5 className="user-handle">@JohntheD</h5>
           </div>
           <div className="col-md-9">
             <h5>Inquiry about relocation</h5>

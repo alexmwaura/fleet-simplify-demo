@@ -10,14 +10,10 @@
 }
 
 @media only screen and (min-width: 992px) {
-    .filter-dropdown {
-      border-radius: 4px;
-      margin-right: 0px;
-      background-color: #fff;
-      transform: translate3d(-18rem, -2rem, 10px);
-      /* width: 50px; */
-    }
-    
+  .filter-dropdown {
+    border-radius: 4px;
+    margin-right: 0px;
+    background-color: #fff;
+    transform: translate3d(-18rem, -2rem, 10px);
   }
-
-  
+}

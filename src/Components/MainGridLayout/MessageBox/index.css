@@ -1,24 +1,22 @@
 img {
-    max-width: 70%;
-    margin-left: 2px;
-  }
-
-  .row {
-      border-radius: 4px;
-  }
-  .user-status {
-      /* position: absolute; */
-      bottom: 2rem;
-  }
-  .header-data {
-      margin-top: 20px;
-  }
-
-  .btn-primary {
-    color: #fff;
-    background-color: #5d5520;
-    border-color: #e8efb4;
-    font-size: 10px;
+  max-width: 70%;
+  margin-left: 2px;
 }
 
+.row {
+  border-radius: 4px;
+}
+.user-status {
+  /* position: absolute; */
+  bottom: 2rem;
+}
+.header-data {
+  margin-top: 20px;
+}
 
+.btn-primary {
+  color: #fff;
+  background-color: #5d5520;
+  border-color: #e8efb4;
+  font-size: 10px;
+}

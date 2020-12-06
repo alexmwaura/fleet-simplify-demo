@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 export default function ChatActions() {
   return (
@@ -15,20 +16,16 @@ export default function ChatActions() {
       </button>
       <div
         className="card-body dropdown-menu"
-        style={{
-          border: "0",
-          alignItems: "center",
-          float: "left",
-          marginRight: "60px",
-          background: "#fff",
-          width: "fit-content",
-        }}
+        id="dropdown-menu"
+        style={{ background: "inherit", border: "none" }}
       >
-        <div style={{ marginLeft: "20px" }}>
-          <button className="btn btn-primary">Close Chat</button>
-          <br />
-          <br />
-          <button className="btn btn-primary">Delete Chat</button>
+        <div className="contact-actions">
+          <div className="container" id="container-contact-actions">
+            <button className="btn btn-primary">Close Chat</button>
+            <br />
+            <br />
+            <button className="btn btn-primary">Delete Chat</button>
+          </div>
         </div>
       </div>
     </>

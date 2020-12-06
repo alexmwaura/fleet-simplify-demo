@@ -8,5 +8,5 @@ export default {
   Navbar,
   Sidebar,
   Footer,
-  MainGridLayout
+  MainGridLayout,
 };

@@ -1,0 +1,22 @@
+@media only screen and (min-width: 992px) {
+  .contact-actions {
+    border: 0px;
+    align-items: center;
+    float: left;
+    margin-right: 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    will-change: transform;
+    top: -35px;
+    left: -40px;
+    transform: translate3d(-6rem, 0px, 0px);
+    align-items: center;
+  }
+  #container-contact-actions {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}

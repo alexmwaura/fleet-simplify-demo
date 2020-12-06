@@ -1,5 +1,3 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-export const SearchGrid = styled.div`
-    
-`
+export const SearchGrid = styled.div``;

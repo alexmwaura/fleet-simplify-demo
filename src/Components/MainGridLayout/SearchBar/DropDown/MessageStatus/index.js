@@ -36,7 +36,7 @@ export default function MessageStatus() {
   return (
     <div>
       <FormControl className={classes.formControl}>
-        <InputLabel style={{marginLeft:'30px',marginTop: '2px'}}>
+        <InputLabel style={{ marginLeft: "30px", marginTop: "2px" }}>
           Message Statuses
         </InputLabel>
         <Select
@@ -53,17 +53,14 @@ export default function MessageStatus() {
             border: "1px solid #ced4da",
             fontSize: 16,
             padding: "10px 26px 10px 12px",
-            
           }}
         >
-          <MenuItem value="">
-          </MenuItem>
+          <MenuItem value=""></MenuItem>
           <MenuItem value={10}>Read Messages</MenuItem>
           <MenuItem value={20}>Unread Messages</MenuItem>
           <MenuItem value={30}>Opened but not responded</MenuItem>
           <MenuItem value={40}>Ongoing Discussion</MenuItem>
           <MenuItem value={50}>Ended Discussion</MenuItem>
-
         </Select>
       </FormControl>
     </div>
