@@ -14,11 +14,14 @@ export default function ContactInfo() {
         <i className="fas fa-exclamation"></i>&nbsp;&nbsp; Contact Info
       </button>
       <div
-        className="dropdown-menu contact-info-dropdown"
-        style={{ border: "0" }}
+        className="dropdown-menu"
+        style={{ border: "0", background: "inherit" }}
       >
-        <div className="filter-dropdown">
-          <div className="card-header" style={{ textAlign: "center" }}>
+        <div className="contact-info-dropdown">
+          <div
+            className="card-header"
+            style={{ textAlign: "center", marginTop: "-8px" }}
+          >
             <i
               className="fas fa-exclamation"
               style={{ color: "goldenrod" }}
@@ -28,30 +31,32 @@ export default function ContactInfo() {
           <div className="container">
             <div className="row">
               <div className="col-md-4">
-                <li className="list-inline-item" style={{ fontSize: "10px" }}>
+                <span className="list-inline-item" style={{ fontSize: "10px" }}>
                   Mobile Number
-                </li>
+                </span>
               </div>
-              <div className="col-md-7 contact-info">
-                <li className="list-inline-item" style={{ fontSize: "12px" }}>
+              <div className="col-md-5 contact-info">
+                <span className="list-inline-item" style={{ fontSize: "12px" }}>
                   0712345678
-                </li>
+                </span>
               </div>
             </div>
             <br />
             <br />
             <div className="row">
               <div className="col-md-4">
-                <li className="list-inline-item" style={{ fontSize: "10px" }}>
+                <span className="list-inline-item" style={{ fontSize: "10px" }}>
                   Email Address
-                </li>
+                </span>
               </div>
-              <div className="col-md-7 contact-info">
-                <li className="list-inline-item" style={{ fontSize: "12px" }}>
+              <div className="col-md-5 contact-info">
+                <span className="list-inline-item" style={{ fontSize: "12px" }}>
                   johndoe@gmail.com
-                </li>
+                </span>
               </div>
             </div>
+            <br />
+            <br />
           </div>
         </div>
       </div>
