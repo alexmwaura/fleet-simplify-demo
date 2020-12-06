@@ -2,7 +2,6 @@
 img {
   max-width: 100%;
 }
-
 .id-wrapper {
   font-size: 13px;
   float: right;
@@ -10,12 +9,15 @@ img {
   top: 0%;
   text-align: center;
   border-radius: 2px;
+  margin-right: 0px;
 }
 
 .chat_list {
     height: 550px;
     overflow-y: scroll;
     border-radius: 10px;
+    background: #fff;
+    box-shadow: 1px 1px 3px 0px;
 }
 .inbox_chat {
   width: 100%;
