@@ -10,10 +10,6 @@ export default function Sidebar() {
         <SideBar className="list-group align-items-center">
           <a
             className="list-group-item list-group-item-action dropdown-toggle"
-            id="list-home-list"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
             href="#list-home"
             role="tab"
             aria-controls="home"
@@ -21,21 +17,6 @@ export default function Sidebar() {
             <i className="far fa-user-circle"></i>
             &nbsp;&nbsp;Employer Profile
           </a>
-          <div className="dropdown-menu">
-            <a className="dropdown-item" href="#">
-              Action
-            </a>
-            <a className="dropdown-item" href="#">
-              Another action
-            </a>
-            <a className="dropdown-item" href="#">
-              Something else here
-            </a>
-            <div className="dropdown-divider"></div>
-            <a className="dropdown-item" href="#">
-              Separated link
-            </a>
-          </div>
           <a
             className="list-group-item list-group-item-action"
             id="list-profile-list"
