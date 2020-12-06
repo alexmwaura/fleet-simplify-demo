@@ -1,4 +1,4 @@
-.filter-dropdown {
+.contact-info-dropdown {
   border-radius: 4px;
   margin-right: 0px;
   background-color: #fff;
@@ -16,7 +16,7 @@
 
 .contact-info {
   box-shadow: 1px 1px 1px 1px #0000006e;
-  border-radius: 10px;
+  border-radius: 2px;
   height: auto;
   background: #80808054;
   display: inline-block;
@@ -24,6 +24,14 @@
   text-align: center;
   margin: 0;
 }
-.dropdown-menu {
-  background: unset;
+
+@media only screen and (min-width: 992px) {
+  .contact-info-dropdown {
+    border-radius: 4px;
+    margin-right: 0px;
+    background-color: #fff;
+    transform: translate3d(-23rem, -32px, 10px);
+    width: 350px;
+  }
+  
 }
