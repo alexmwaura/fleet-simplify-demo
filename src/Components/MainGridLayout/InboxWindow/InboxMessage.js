@@ -1,18 +1,18 @@
 import React from "react";
-
+import {InboxContainer, ChatIdSpan} from "./inbox.styles"
 export default function InboxMessage() {
   return (
     <>
       <div className="row">
         <div className="col-md-12">
           <div className="float-sm-right id-wrapper">
-            <span style={{ marginRight: "10px", marginLeft: "10px" }}>
+            <ChatIdSpan >
               Chat Id:324566223
-            </span>
+            </ChatIdSpan>
           </div>
         </div>
       </div>
-      <div className="container" style={{ marginTop: "20px" }}>
+      <InboxContainer className="container" >
         <div className="row">
           <div className="col-md-3">
             <img
@@ -40,7 +40,7 @@ export default function InboxMessage() {
             </div>
           </div>
         </div>
-      </div>
+      </InboxContainer>
     </>
   );
 }
