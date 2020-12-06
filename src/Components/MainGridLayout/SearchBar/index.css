@@ -24,16 +24,8 @@
 .bg-light {
     background-color: #fff!important;
 }
-.filter-dropdown{
-  border-radius: 4px;
-}
-.card-header {
-  color: #fff;
-  padding: .75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: #402b2ba3;
-  border-bottom: 1px solid rgba(0,0,0,.125);
-}
+
+
 .input-group-append {
   border-radius: 15px;
   margin-top: 12px;

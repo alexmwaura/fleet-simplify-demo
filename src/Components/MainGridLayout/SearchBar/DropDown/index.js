@@ -1,63 +1,55 @@
 import React from "react";
+import MessageStatus from "./MessageStatus";
+import Popover from "@material-ui/core/Popover";
+import TimeOfMessage from "./TimeOfMessage";
+import "./index.css";
 
 export default function FilterDropDown() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
+
   return (
     <>
       <button
-        className="btn btn-link text-dark  dropdown-toggle-split"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
+        className="btn btn-link text-dark"
         type="submit"
+        onClick={handleClick}
       >
         <i className="fas fa-sort-amount-down"></i>
       </button>
-      <div className="dropdown-menu" style={{ border: "0" }}>
-        <div className="filter-dropdown">
-          <div className="card-header">header</div>
-          <div className="card-body">
-            <form>
-              <div
-                className="p-2 bg-light rounded rounded-pill shadow-sm mb-4"
-                style={{ borderRadius: "2px solid brown" }}
-              >
-                <div className="input-group">
-                  <input
-                    type="search"
-                    placeholder="Message statuses"
-                    aria-describedby="button-addon"
-                    className="form-control border-0 bg-light"
-                  />
-                  <div className="input-group-prepend">
-                    <button type="submit" className="btn btn-link text-dark">
-                      <i className="fas fa-caret-down"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="p-2 bg-light rounded rounded-pill shadow-sm mb-4"
-                style={{ borderRadius: "2px solid brown" }}
-              >
-                <div className="input-group">
-                  <input
-                    type="search"
-                    placeholder="Time of Message"
-                    aria-describedby="button-addon"
-                    className="form-control border-0 bg-light"
-                  />
-                  <div className="input-group-prepend">
-                    <button type="submit" className="btn btn-link text-dark">
-                      <i className="fas fa-caret-down"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <button className="btn btn-warning">Apply Filters</button>
-            </form>
-          </div>
+      <Popover
+        id={id}
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: "bottom",
+          horizontal: "center",
+        }}
+        transformOrigin={{
+          vertical: "top",
+          horizontal: "center",
+        }}
+      >
+        <div className="card-header">Filters</div>
+        <div className="card-body">
+          <form>
+            <MessageStatus />
+            <TimeOfMessage />
+            <button className="btn btn-warning">Apply Filters</button>
+          </form>
         </div>
-      </div>
+      </Popover>
     </>
   );
 }
