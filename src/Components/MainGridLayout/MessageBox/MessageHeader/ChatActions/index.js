@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { DropDownMenu } from "../index.styles";
 
 export default function ChatActions() {
   return (
@@ -14,11 +15,7 @@ export default function ChatActions() {
       >
         <i className="fas fa-ellipsis-v"></i>
       </button>
-      <div
-        className="card-body dropdown-menu"
-        id="dropdown-menu"
-        style={{ background: "inherit", border: "none" }}
-      >
+      <DropDownMenu className="card-body dropdown-menu" id="dropdown-menu">
         <div className="contact-actions">
           <div className="container" id="container-contact-actions">
             <button className="btn btn-primary">Close Chat</button>
@@ -27,7 +24,7 @@ export default function ChatActions() {
             <button className="btn btn-primary">Delete Chat</button>
           </div>
         </div>
-      </div>
+      </DropDownMenu>
     </>
   );
 }
