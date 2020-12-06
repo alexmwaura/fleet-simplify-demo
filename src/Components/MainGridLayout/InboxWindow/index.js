@@ -1,30 +1,30 @@
 import React from "react";
 import "./index.css";
-import InboxWindow from "./inboxWindow";
+import InboxMessage from "./InboxMessage";
 import { InboxChatActive, InboxChatDisabled } from "./inbox.styles";
 
-export default function MainInboxWindow() {
+export default function MainInboxMessage() {
   return (
     <div className="col-md-5">
       <div className="chat_list">
         <div className="container">
           <InboxChatActive className="inbox_chat">
-            <InboxWindow />
+            <InboxMessage />
           </InboxChatActive>
           <InboxChatDisabled className="inbox_chat">
-            <InboxWindow />
+            <InboxMessage />
           </InboxChatDisabled>
           <InboxChatActive className="inbox_chat">
-            <InboxWindow />
+            <InboxMessage />
           </InboxChatActive>
           <InboxChatActive className="inbox_chat">
-            <InboxWindow />
+            <InboxMessage />
           </InboxChatActive>
           <InboxChatActive className="inbox_chat">
-            <InboxWindow />
+            <InboxMessage />
           </InboxChatActive>
           <InboxChatDisabled className="inbox_chat">
-            <InboxWindow />
+            <InboxMessage />
           </InboxChatDisabled>
         </div>
       </div>
