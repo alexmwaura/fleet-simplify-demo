@@ -47,15 +47,7 @@ export default function TimeOfMessage() {
           onOpen={handleOpen}
           value={age}
           onChange={handleChange}
-          style={{
-            borderRadius: 10,
-            position: "relative",
-            border: "1px solid #ced4da",
-            fontSize: 16,
-            padding: "10px 26px 10px 12px",
-          }}
         >
-          <MenuItem value=""></MenuItem>
           <MenuItem value={10}>Last Hour</MenuItem>
           <MenuItem value={20}>12 hrs ago</MenuItem>
           <MenuItem value={30}>Today</MenuItem>

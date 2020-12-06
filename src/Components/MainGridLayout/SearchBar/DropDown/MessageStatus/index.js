@@ -47,15 +47,7 @@ export default function MessageStatus() {
           onOpen={handleOpen}
           value={age}
           onChange={handleChange}
-          style={{
-            borderRadius: 10,
-            position: "relative",
-            border: "1px solid #ced4da",
-            fontSize: 16,
-            padding: "10px 26px 10px 12px",
-          }}
         >
-          <MenuItem value=""></MenuItem>
           <MenuItem value={10}>Read Messages</MenuItem>
           <MenuItem value={20}>Unread Messages</MenuItem>
           <MenuItem value={30}>Opened but not responded</MenuItem>

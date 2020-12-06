@@ -17,3 +17,11 @@
     transform: translate3d(-18rem, -2rem, 10px);
   }
 }
+
+#demo-controlled-open-select {
+  border-radius: 10;
+  position: relative;
+  border: 1px solid #ced4da;
+  font-size: 16;
+  padding: 10px 26px 10px 12px;
+}
