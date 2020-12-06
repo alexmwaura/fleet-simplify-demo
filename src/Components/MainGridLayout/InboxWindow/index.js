@@ -1,75 +1,31 @@
 import React from "react";
 import "./index.css";
 import InboxWindow from "./inboxWindow";
+import { InboxChatActive, InboxChatDisabled } from "./inbox.styles";
 
 export default function MainInboxWindow() {
   return (
     <div className="col-md-5">
       <div className="chat_list">
         <div className="container">
-          <div
-            className="inbox_chat"
-            style={{
-              backgroundColor: "rgb(193 217 245)",
-              border: "1px #f5e556 solid",
-              borderTop: "none",
-            }}
-          >
+          <InboxChatActive className="inbox_chat">
             <InboxWindow />
-          </div>
-          <br />
-          <br />
-          <div
-            className="inbox_chat"
-            style={{
-              backgroundColor: "#e9ecef",
-              border: "1px rgb(232 221 221) solid",
-              borderTop: "none",
-            }}
-          >
+          </InboxChatActive>
+          <InboxChatDisabled className="inbox_chat">
             <InboxWindow />
-          </div>
-          <br />
-          <br />
-          <div
-            className="inbox_chat"
-            style={{
-              backgroundColor: "rgb(193 217 245)",
-              border: "1px #f5e556 solid",
-              borderTop: "none",
-            }}
-          >
+          </InboxChatDisabled>
+          <InboxChatActive className="inbox_chat">
             <InboxWindow />
-          </div>
-          <br />
-          <br />
-          <div
-            className="inbox_chat"
-            style={{
-              backgroundColor: "rgb(193 217 245)",
-              border: "1px #f5e556 solid",
-              borderTop: "none",
-            }}
-          >
+          </InboxChatActive>
+          <InboxChatActive className="inbox_chat">
             <InboxWindow />
-          </div>
-          <br />
-          <br />
-          <div
-            className="inbox_chat"
-            style={{
-              backgroundColor: "#e9ecef",
-              border: "1px rgb(232 221 221) solid",
-              borderTop: "none",
-            }}
-          >
+          </InboxChatActive>
+          <InboxChatActive className="inbox_chat">
             <InboxWindow />
-          </div>
-          <br />
-          <br />
-          <div className="inbox_chat">
+          </InboxChatActive>
+          <InboxChatDisabled className="inbox_chat">
             <InboxWindow />
-          </div>
+          </InboxChatDisabled>
         </div>
       </div>
     </div>
