@@ -12,3 +12,12 @@ export const InboxChatDisabled = styled.div`
   border-top: none;
   margin-bottom: 30px;
 `;
+
+export const InboxContainer = styled.div `
+margin-top: 20px
+`
+
+export const ChatIdSpan = styled.div`
+margin-right: 10px;
+margin-left: 10px;
+`
