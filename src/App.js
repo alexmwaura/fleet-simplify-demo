@@ -9,7 +9,7 @@ function App() {
         <Components.MainGridLayout />
 
       </div>
-      {/* <Components.Footer /> */}
+      <Components.Footer />
     </>
   );
 }

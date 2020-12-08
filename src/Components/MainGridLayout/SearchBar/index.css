@@ -26,6 +26,10 @@
 }
 
 .input-group-append {
-  border-radius: 15px;
-  margin-top: 12px;
+  background: #6e73794f;
+  height: 7vh;
+  margin-top: 50px;
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-bottom: -20px;
 }

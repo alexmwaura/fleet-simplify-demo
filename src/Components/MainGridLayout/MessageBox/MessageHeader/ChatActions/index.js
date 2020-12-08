@@ -12,6 +12,9 @@ export default function ChatActions() {
         aria-expanded="false"
         type="submit"
         id="chatActions"
+        style={{
+          // paddingLeft: "10px"
+        }}
       >
         <i className="fas fa-ellipsis-v"></i>
       </button>

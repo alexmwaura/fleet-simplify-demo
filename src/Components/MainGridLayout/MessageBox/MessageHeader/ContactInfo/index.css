@@ -28,11 +28,11 @@
 
 @media only screen and (min-width: 992px) {
   .contact-info-dropdown {
-    margin-top: -1rem;
+    margin-top: 0px;
     border-radius: 4px;
     margin-right: 0px;
     background-color: #fff;
-    transform: translate3d(-23rem, -32px, 10px);
-    width: 380px;
+    transform:translate3d(-23.8rem, -40px, 10px);
+        width: 360px;
   }
 }

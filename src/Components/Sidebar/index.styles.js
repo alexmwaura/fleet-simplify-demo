@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SideBar = styled.div`
-background: #80147f;
+background: #af41ae;
 width: 220px;
 `;
 

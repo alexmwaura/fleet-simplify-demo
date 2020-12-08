@@ -1,13 +1,24 @@
 .message-box {
-  height: 750px;
+  height: 500px;
   overflow-y: scroll;
   overflow-x: hidden;
-  border-radius: 0px 0px 10px 10px;
   background: #fff;
-  box-shadow: 0px 1px 1px 0px rgb(175, 173, 173);
   margin-left: 1px;
   margin-right: 2px;
 }
+.message-box::-webkit-scrollbar {
+  width: 12px;  
+}
+.message-box::-webkit-scrollbar-track {
+  background: #fff;        
+}
+
+.message-box::-webkit-scrollbar-thumb {
+  background-color: rgb(192, 189, 189);    
+  border-radius: 20px; 
+
+}
+
 .msg_container_inbox {
   margin-top: 20px;
   margin-bottom: auto;
@@ -28,7 +39,12 @@
   padding: 10px;
   position: relative;
 }
-
+.delete_icon {
+  color: #757c83;
+  float: right; 
+  margin-top: -3rem;
+  margin-right: -20px;
+}
 .msg_time {
   color: #adb5bd;
   margin-top: 20px;

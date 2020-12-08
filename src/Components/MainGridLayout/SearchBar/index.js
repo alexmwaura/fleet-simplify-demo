@@ -15,7 +15,7 @@ export default function SearchBar() {
                   className="p-1 bg-light rounded rounded-pill shadow-sm mb-4"
                   style={{
                     borderRadius: "2px solid yellow",
-                    width: "345px",
+                    width: "328px",
                   }}
                 >
                   <div className="input-group">
@@ -38,14 +38,14 @@ export default function SearchBar() {
                 </div>
               </form>
             </li>
-            &nbsp;&nbsp;&nbsp;
+            &nbsp;
             <li className="list-inline-item">
               <DropDown />
             </li>
           </ul>
         </SearchGrid>
         <SearchGrid className="col-md-4 float-sm-right">
-          <div className="float-sm-right" style={{marginRight: '1rem'}}>
+          <div className="float-sm-right" style={{marginRight: '2.5rem'}}>
             <button className="btn btn-warning">
               <i className="fas fa-plus"></i>&nbsp;&nbsp; Start a new chat
             </button>

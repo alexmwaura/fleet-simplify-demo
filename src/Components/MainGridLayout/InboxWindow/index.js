@@ -5,7 +5,9 @@ import { InboxChatActive, InboxChatDisabled } from "./inbox.styles";
 
 export default function MainInboxMessage() {
   return (
-    <div className="col-md-5">
+    <div className="col-md-5"
+    
+    >
       <div className="chat_list">
         <div className="container" style={{ height: "10vh" }}>
           <InboxChatActive className="inbox_chat">

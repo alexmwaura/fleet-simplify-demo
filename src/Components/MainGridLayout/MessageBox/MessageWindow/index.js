@@ -4,7 +4,14 @@ import SendMessage from "../SendMessage";
 
 export default function MessageWindow() {
   return (
-    <>
+    <div
+      style={{
+        boxShadow: "0px 1px 1px 0px rgb(175, 173, 173)",
+        borderRadius: "0px 0px 10px 10px",
+        marginLeft: "1px",
+        marginRight: "1px",
+      }}
+    >
       <div className="message-box">
         <div className="col-md-12">
           <div className="float-sm-right id-wrapper2">
@@ -45,6 +52,9 @@ export default function MessageWindow() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
             </div>
+            <span className="delete_icon">
+              <i className="far fa-trash-alt"></i>
+            </span>
             <span className="msg_time2">
               11:50 a.m. <i className="fas fa-check-double"></i>
             </span>
@@ -54,15 +64,16 @@ export default function MessageWindow() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry
             </div>
+            <span className="delete_icon">
+              <i className="far fa-trash-alt"></i>
+            </span>
             <span className="msg_time2">
               11:50 a.m. <i className="fas fa-check"></i>
             </span>
           </div>
-          <div className="card-body">
-            <SendMessage />
-          </div>
         </div>
       </div>
-    </>
+      <SendMessage />
+    </div>
   );
 }

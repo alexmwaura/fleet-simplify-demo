@@ -1,7 +1,8 @@
 .send_message {
   margin: 25px;
-  box-shadow: 0px 0px 0px 1px #ffc107;
-  border-radius: 7px;
+  box-shadow: 2px #f8e099;
+  border-radius: 1px;
+  padding-bottom: 30px
 }
 .form-control {
   display: block;
@@ -18,8 +19,8 @@
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .input-group-append {
-  background: #6e73794f;
-  height: 10vh;
+  background: #6e737912;
+  height: 7vh;
   border-radius: 15px;
   margin-top: 25px;
 }
