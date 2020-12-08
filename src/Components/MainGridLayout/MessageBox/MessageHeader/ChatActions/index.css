@@ -2,6 +2,7 @@
   .contact-actions {
     border: 0px;
     align-items: center;
+    box-shadow: 0px 1px 1px 1px #8a8888;
     float: left;
     margin-right: 60px;
     background: rgb(255, 255, 255);

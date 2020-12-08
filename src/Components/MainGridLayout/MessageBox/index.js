@@ -5,7 +5,7 @@ import MessageWindow from "./MessageWindow";
 
 export default function MessageBox() {
   return (
-    <div className="col-md-7" style={{ bottom: "39px" }}>
+    <div className="col-md-7" style={{ bottom: "39px",right: '1rem' }}>
       <div className="container"
       >
         <MessageHeader />

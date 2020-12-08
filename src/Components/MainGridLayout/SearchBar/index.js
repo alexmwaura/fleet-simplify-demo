@@ -45,7 +45,7 @@ export default function SearchBar() {
           </ul>
         </SearchGrid>
         <SearchGrid className="col-md-4 float-sm-right">
-          <div className="float-sm-right" style={{marginRight: '2.5rem'}}>
+          <div className="float-sm-right" style={{marginRight: '3rem'}}>
             <button className="btn btn-warning">
               <i className="fas fa-plus"></i>&nbsp;&nbsp; Start a new chat
             </button>
