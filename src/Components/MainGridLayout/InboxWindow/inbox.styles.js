@@ -5,12 +5,15 @@ export const InboxChatActive = styled.div`
   border: 1px #f5e556 solid;
   border-top: none;
   margin-bottom: 30px;
+  border-radius: 5px;
 `;
 export const InboxChatDisabled = styled.div`
   background-color: #e9ecef;
   border: 1px rgb(232 221 221) solid;
   border-top: none;
   margin-bottom: 30px;
+  border-radius: 5px;
+
 `;
 
 export const InboxContainer = styled.div `

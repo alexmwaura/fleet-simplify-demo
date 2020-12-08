@@ -33,12 +33,16 @@ export default function FilterDropDown() {
         anchorEl={anchorEl}
         onClose={handleClose}
         anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
+          vertical: 10,
+          horizontal: -310,
         }}
         transformOrigin={{
           vertical: "top",
-          horizontal: "center",
+          horizontal: "left",
+        }}
+        anchorPosition={{
+          left: 0,
+          top: 0
         }}
       >
         <div className="card-header">Filters</div>

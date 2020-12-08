@@ -1,90 +1,54 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { SideBar, SideBarGrid } from "./index.styles";
+import { SideBar, SideBarGrid, ListSpan } from "./index.styles";
 import "./index.css";
 
 export default function Sidebar() {
   return (
-    <SideBarGrid className="col-md-2 mx-auto">
-      <div className="container">
-        <SideBar className="list-group align-items-center">
-          <a
-            className="list-group-item list-group-item-action dropdown-toggle"
-            href="#list-home"
-            role="tab"
-            aria-controls="home"
-          >
-            <i className="far fa-user-circle"></i>
-            &nbsp;&nbsp;Employer Profile
-          </a>
-          <a
-            className="list-group-item list-group-item-action"
-            id="list-profile-list"
-            data-toggle="list"
-            href="#list-profile"
-            role="tab"
-            aria-controls="profile"
-          >
-            <i className="fas fa-taxi"></i>
-            &nbsp;&nbsp;Onboard Your Vehicles
-          </a>
-          <a
-            className="list-group-item list-group-item-action"
-            id="list-messages-list"
-            data-toggle="list"
-            href="#list-messages"
-            role="tab"
-            aria-controls="messages"
-          >
-            <i className="fas fa-search"></i>&nbsp;&nbsp; Search and Hire
-            Drivers
-          </a>
-          <a
-            className="list-group-item list-group-item-action"
-            id="list-settings-list"
-            data-toggle="list"
-            href="#list-settings"
-            role="tab"
-            aria-controls="settings"
-          >
-            <i className="far fa-envelope"></i>
-            &nbsp;&nbsp; Recruitment
-          </a>
-          <a
-            className="list-group-item list-group-item-action"
-            id="list-settings-list"
-            data-toggle="list"
-            href="#list-settings"
-            role="tab"
-            aria-controls="settings"
-          >
-            <i className="fas fa-network-wired"></i>
-            &nbsp;&nbsp; My Organisations
-          </a>
-          <a
-            className="list-group-item list-group-item-action"
-            id="list-settings-list"
-            data-toggle="list"
-            href="#list-settings"
-            role="tab"
-            aria-controls="settings"
-          >
-            <i className="fas fa-star"></i>
-            &nbsp;&nbsp; Rate A Driver
-          </a>
-          <a
-            className="list-group-item list-group-item-action"
-            id="list-settings-list"
-            data-toggle="list"
-            href="#list-settings"
-            role="tab"
-            aria-controls="settings"
-          >
-            <i className="far fa-calendar"></i>
-            &nbsp;&nbsp; My Subscription
-          </a>
-        </SideBar>
-      </div>
+    <SideBarGrid className="col-md-2 mx-auto" style={{ marginTop: "-3px" }}>
+      <SideBar className="list-group align-items-center">
+        <br />
+        <a
+          className="list-group-item list-group-item-action dropdown-toggle"
+          href="#"
+        >
+          <i className="far fa-user-circle"></i>
+          <ListSpan>Employer Profile</ListSpan>
+        </a>
+        <a className="list-group-item list-group-item-action" href="#">
+          <i className="fas fa-taxi"></i>
+          <ListSpan>Onboard Your Vehicles</ListSpan>
+        </a>
+        <a className="list-group-item list-group-item-action" href="#">
+          <i className="fas fa-search"></i>
+          <ListSpan>Search and Hire Drivers</ListSpan>
+        </a>
+        <a
+          className="list-group-item list-group-item-action"
+          href="#"
+          aria-controls="settings"
+        >
+          <i className="far fa-envelope"></i>
+          <ListSpan>Inbox</ListSpan>
+        </a>
+        <a className="list-group-item list-group-item-action" href="#">
+          <i className="fas fa-inbox"></i>
+          <ListSpan>Recruitment</ListSpan>
+        </a>
+        <a className="list-group-item list-group-item-action" href="#">
+          <i className="fas fa-network-wired"></i>
+          <ListSpan>My Organisations</ListSpan>
+        </a>
+        <a className="list-group-item list-group-item-action" href="#">
+          <i className="fas fa-star"></i>
+          <ListSpan>Rate A Driver</ListSpan>
+        </a>
+        <a className="list-group-item list-group-item-action" href="#">
+          <i className="far fa-calendar"></i>
+          <ListSpan>My Subscription</ListSpan>
+        </a>
+        <br />
+      </SideBar>
     </SideBarGrid>
   );
 }

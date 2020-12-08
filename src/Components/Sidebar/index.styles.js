@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
-export const SideBar = styled.div``;
+export const SideBar = styled.div`
+background: #80147f;
+width: 220px;
+`;
 
 export const SideBarGrid = styled.div`
-  background: #80147f;
-  width: 260px;
-  height: 75vh;
 `;
+
+export const ListSpan = styled.span`
+margin-left: 10px;
+`

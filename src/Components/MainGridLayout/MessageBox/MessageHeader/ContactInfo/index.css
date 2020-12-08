@@ -1,5 +1,5 @@
 .contact-info-dropdown {
-  border-radius: 4px;
+  border-radius: 5px;
   margin-right: 0px;
   background-color: #fff;
 }
@@ -7,6 +7,7 @@
   color: #fff;
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
+  border: 5px;
   background-color: #402b2ba3;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -22,15 +23,16 @@
   display: inline-block;
   align-items: center;
   text-align: center;
-  margin: 0;
+  width: 160px;
 }
 
 @media only screen and (min-width: 992px) {
   .contact-info-dropdown {
+    margin-top: -1rem;
     border-radius: 4px;
     margin-right: 0px;
     background-color: #fff;
     transform: translate3d(-23rem, -32px, 10px);
-    width: 350px;
+    width: 380px;
   }
 }

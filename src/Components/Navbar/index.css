@@ -1,3 +1,29 @@
 #mainNav {
-  border-bottom: 20px solid #000;
+  border-bottom: 35px solid #000;
+    padding-left: 7rem;
+    /* padding-right: 10rem */
+}
+#btn-navbar {
+  font-size: 1.5rem;
+  border-radius: 0;
+  text-align: center;
+  /* padding-left: 2rem; */
+  width: 200px;
+  /* display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+.btn-outline-dar:hover {
+  color: white;
 }

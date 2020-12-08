@@ -9,54 +9,52 @@ export default function Navbar() {
       className="navbar navbar-expand-lg navbar-light bg-light sticky-top"
       id="mainNav"
     >
-      <div className="container">
-        <a className="navbar-brand" href="#">
-          <img
-            src="https://www.instadriver.co/img/logo.svg"
-            alt="instadriver"
-          />
-        </a>
-        <button
-          className="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i className="fas fa-bars"></i>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <ListAnchor className="btn btn-outline-dark" href="#">
-                Jobs
-              </ListAnchor>
-            </li>
-            &nbsp;&nbsp;&nbsp;
-            <li className="nav-item">
-              <ListAnchor className="btn btn-outline-dark" href="#">
-                Get Social
-              </ListAnchor>
-            </li>
-            &nbsp;&nbsp;&nbsp;
-            <li className="nav-item">
-              <ListAnchor className="btn btn-outline-dark" href="#">
-                James Keem
-              </ListAnchor>
-            </li>
-            <li className="nav-item">
-              &nbsp;&nbsp;&nbsp;
-              <ListAnchor className="btn" href="#">
-                Menu &nbsp;&nbsp;&nbsp;
-                <i className="fas fa-bars"></i>
-              </ListAnchor>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <a className="navbar-brand" href="#">
+        <img
+          src="https://www.instadriver.co/img/logo.svg"
+          alt="instadriver"
+          style={{
+            maxWidth: "100%",
+            marginLeft: "4rem",
+            // paddingLeft: "5rem",
+          }}
+        />
+      </a>
+      <button
+        className="navbar-toggler navbar-toggler-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        Menu
+        <i className="fas fa-bars"></i>
+      </button>
+        <ul className="navbar-nav ml-auto collapse navbar-collapse" id="navbarResponsive">
+          <li className="nav-item" style={{marginLeft: '5rem'}}>
+            <ListAnchor className="btn btn-outline-dark" id="btn-navbar" href="#">
+              Jobs
+            </ListAnchor>
+          </li>
+          <li className="nav-item" style={{marginLeft: '2rem'}}>
+            <ListAnchor className="btn btn-outline-dark" id="btn-navbar" href="#">
+              Get Social
+            </ListAnchor>
+          </li>
+          <li className="nav-item" style={{marginLeft: '2rem'}}>
+            <ListAnchor className="btn btn-outline-dark" id="btn-navbar" href="#">
+              James Keem
+            </ListAnchor>
+          </li>
+          <li className="nav-item">
+            <ListAnchor className="btn" id="btn-navbar" href="#">
+              Menu &nbsp;
+              <span><i className="fas fa-bars"></i></span>
+            </ListAnchor>
+          </li>
+        </ul>
     </nav>
   );
 }

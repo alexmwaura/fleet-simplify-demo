@@ -7,8 +7,9 @@ function App() {
       <div className="row">
         <Components.Sidebar />
         <Components.MainGridLayout />
+
       </div>
-      <Components.Footer />
+      {/* <Components.Footer /> */}
     </>
   );
 }

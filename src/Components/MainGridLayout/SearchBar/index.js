@@ -7,13 +7,16 @@ export default function SearchBar() {
   return (
     <div className="container">
       <div className="row">
-        <SearchGrid className="col-md-4 col-md-4 mx-auto">
+        <SearchGrid className="col-md-8 col-md-8 mx-auto">
           <ul className="list-inline">
             <li className="list-inline-item">
               <form>
                 <div
                   className="p-1 bg-light rounded rounded-pill shadow-sm mb-4"
-                  style={{ borderRadius: "2px solid yellow" }}
+                  style={{
+                    borderRadius: "2px solid yellow",
+                    width: "345px",
+                  }}
                 >
                   <div className="input-group">
                     <div className="input-group-prepend">
@@ -41,10 +44,10 @@ export default function SearchBar() {
             </li>
           </ul>
         </SearchGrid>
-        <SearchGrid className="col-md-8 float-sm-right">
-          <div className="float-sm-right">
+        <SearchGrid className="col-md-4 float-sm-right">
+          <div className="float-sm-right" style={{marginRight: '1rem'}}>
             <button className="btn btn-warning">
-              <i className="fas fa-plus"></i>Start a new chat
+              <i className="fas fa-plus"></i>&nbsp;&nbsp; Start a new chat
             </button>
           </div>
         </SearchGrid>

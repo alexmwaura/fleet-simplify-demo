@@ -12,8 +12,9 @@ export default function ContactInfo() {
         aria-expanded="false"
         type="submit"
         id="contactInfo"
+
       >
-        <i className="fas fa-exclamation"></i>&nbsp;&nbsp; Contact Info
+        <i className="fas fa-exclamation" style={{marginRight:'10px',marginLeft: '0px'}}></i> Contact Info
       </button>
       <DropDownMenu
         className="dropdown-menu"
@@ -30,13 +31,15 @@ export default function ContactInfo() {
           </CardHeader>
           <div className="container">
             <div className="row">
-              <div className="col-md-4">
-                <span className="list-inline-item" style={{ fontSize: "10px" }}>
+              <div className="col-md-6">
+                <span className="list-inline-item" style={{ fontSize: "13px",opacity:'0.5',marginLeft:'20px' }}>
                   Mobile Number
                 </span>
               </div>
-              <div className="col-md-5 contact-info">
-                <span className="list-inline-item" style={{ fontSize: "12px" }}>
+              <div className="col-md-6">
+                <span className="list-inline-item contact-info" style={{ fontSize: "15px"
+              
+              }}>
                   0712345678
                 </span>
               </div>
@@ -44,13 +47,13 @@ export default function ContactInfo() {
             <br />
             <br />
             <div className="row">
-              <div className="col-md-4">
-                <span className="list-inline-item" style={{ fontSize: "10px" }}>
+              <div className="col-md-6">
+              <span className="list-inline-item" style={{ fontSize: "13px",opacity:'0.5',marginLeft:'20px' }}>
                   Email Address
                 </span>
               </div>
-              <div className="col-md-5 contact-info">
-                <span className="list-inline-item" style={{ fontSize: "12px" }}>
+              <div className="col-md-6">
+                <span className="list-inline-item contact-info" style={{ fontSize: "16px" }}>
                   johndoe@gmail.com
                 </span>
               </div>

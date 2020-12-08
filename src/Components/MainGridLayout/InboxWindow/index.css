@@ -12,17 +12,16 @@ img {
 }
 
 .chat_list {
-  height: 550px;
+  height: 600px;
   overflow-y: scroll;
-  border-radius: 10px;
+  border-radius: 1px;
   background: #fff;
-  box-shadow: 1px 1px 3px 0px;
+  box-shadow: 1px 1px 3px 0px rgb(204, 202, 202);
 }
 .inbox_chat {
   width: 100%;
   bottom: 40px;
-  border-radius: 3px;
-  box-shadow: 1px 3px 5px 0px #312e2e;
+  /* box-shadow: 1px 3px 5px 0px #e9ecef; */
 }
 .user-name {
   font-size: 12px;
@@ -37,11 +36,11 @@ img {
 }
 .online_icon {
   position: absolute;
-  height: 20px;
-  width: 20px;
+  height: 23px;
+  width: 23px;
   background-color: #4cd137;
   border-radius: 50%;
-  top: 1em;
+  top: 0.8em;
   float: right;
 }
 

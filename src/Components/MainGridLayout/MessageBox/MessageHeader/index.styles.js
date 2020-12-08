@@ -10,10 +10,8 @@ export const CardHeader = styled.div`
   margin-top: -8px;
 `;
 export const MainRow = styled.div`
-  background-color: rgb(193 217 245);
   border-top: none;
-  height: auto;
-  box-shadow: 1px 1px 3px;
+  height: 10vh;
   margin-right: 0px;
   margin-left: 0px;
 `;
