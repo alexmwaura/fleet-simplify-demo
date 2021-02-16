@@ -1,66 +1,68 @@
 .footer {
-    text-align: center;
-    color: #fff;
-    background-image: url('https://www.instadriver.co/img/footer.png');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    height: auto;
-    padding-bottom: 40px;
+  text-align: center;
+  color: #fff;
+  background-image: url("https://www.instadriver.co/img/footer.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 40px;
 }
 .text-center {
-    text-align: center!important;
+  text-align: center !important;
 }
 img {
-    vertical-align: middle;
-    border-style: none;
+  vertical-align: middle;
+  border-style: none;
 }
 .spacing {
-    padding-top: 62px;
+  padding-top: 62px;
 }
 .text-left {
-    text-align: left!important;
+  text-align: left !important;
 }
 .footer h4 {
-    color: #fff!important;
+  color: #fff !important;
 }
 .service-heading {
-    margin: 15px 0;
-    font-size: 18px;
-    color: #3B3B3B;
-    margin-bottom: 7px;
-    text-transform: none;
+  margin: 15px 0;
+  font-size: 18px;
+  color: #3b3b3b;
+  margin-bottom: 7px;
+  text-transform: none;
 }
 h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 .links {
-    color: #C7C6BF;
-    font-family: Rubik;
-    font-size: 15px;
-    line-height: 18px;
-    color: #C7C6BF;
-    font-family: Rubik;
-    font-size: 15px;
-    line-height: 18px;
-    font-weight: 100;
+  color: #c7c6bf;
+  font-family: Rubik;
+  font-size: 15px;
+  line-height: 18px;
+  color: #c7c6bf;
+  font-family: Rubik;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 100;
 }
 a {
-    color: #3B3B3B;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 22px;
+  color: #3b3b3b;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 22px;
 }
-a:hover{
-    color: yellow;
+a:hover {
+  color: yellow;
 }
-*, ::after, ::before {
-    box-sizing: border-box;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }

@@ -1,0 +1,72 @@
+.message-box {
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: #fff;
+  margin-left: 1px;
+  margin-right: 2px;
+}
+.message-box::-webkit-scrollbar {
+  width: 12px;  
+}
+.message-box::-webkit-scrollbar-track {
+  background: #fff;        
+}
+
+.message-box::-webkit-scrollbar-thumb {
+  background-color: rgb(192, 189, 189);    
+  border-radius: 20px; 
+
+}
+
+.msg_container_inbox {
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-left: 0px;
+  margin-right: 10rem;
+  border-radius: 15px 15px 15px 0px;
+  background-color: #b7ecf7;
+  padding: 10px;
+  position: relative;
+}
+.msg_container_inbox2 {
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-left: 10rem;
+  margin-right: 0px;
+  border-radius: 15px 15px 15px 0px;
+  background-color: #f1d1e8;
+  padding: 10px;
+  position: relative;
+}
+.delete_icon {
+  color: #757c83;
+  float: right; 
+  margin-top: -3rem;
+  margin-right: -20px;
+}
+.msg_time {
+  color: #adb5bd;
+  margin-top: 20px;
+  float: left;
+}
+
+.msg_time2 {
+  color: #adb5bd;
+  margin-top: 20px;
+  float: right;
+}
+.card-footer {
+  border-radius: 0 0 15px 15px !important;
+  border-top: 0 !important;
+}
+
+.id-wrapper2 {
+  font-size: 13px;
+  float: right;
+  background: #f0eded;
+  top: 0%;
+  text-align: center;
+  border-radius: 2px;
+  margin-right: -14.6px;
+}

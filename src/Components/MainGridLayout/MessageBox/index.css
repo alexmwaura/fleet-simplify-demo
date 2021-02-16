@@ -1,0 +1,28 @@
+img {
+  max-width: 70%;
+  margin-left: 2px;
+}
+
+.row {
+  border-radius: 4px;
+}
+.user-status {
+  /* position: absolute; */
+  bottom: 2rem;
+}
+.header-data {
+  margin-top: 25px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #402b2ba3;
+  border-color: #e8efb4;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .user-metadata {
+    margin-left: -2rem;
+  }
+}

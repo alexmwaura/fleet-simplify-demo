@@ -1,0 +1,35 @@
+.container {
+  margin-top: 40px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+.p-1 {
+  padding: 0.25rem !important;
+  border: 1px solid #ffd700ba;
+  border-top: none;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+
+.input-group-append {
+  background: #6e73794f;
+  height: 7vh;
+  margin-top: 50px;
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-bottom: -20px;
+}

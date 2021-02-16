@@ -1,0 +1,37 @@
+.filter-dropdown {
+  border-radius: 4px;
+}
+.card-header {
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #402b2ba3;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@media only screen and (min-width: 992px) {
+  .filter-dropdown {
+    border-radius: 4px;
+    margin-right: 0px;
+    background-color: #fff;
+    transform: translate3d(-18rem, -2rem, 10px);
+  }
+}
+
+#demo-controlled-open-select {
+  border-radius: 10;
+  position: relative;
+  border: 1px solid #ced4da;
+  font-size: 16;
+  padding: 10px 26px 10px 12px;
+}
+
+.pop-filter {
+  opacity: 1;
+  transform: none;
+  transition: opacity 304ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    transform 202ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  top: 147px;
+  left: 21rem;
+  transform-origin: 0px 0px;
+}
